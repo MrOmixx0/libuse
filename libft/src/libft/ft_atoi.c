@@ -6,7 +6,7 @@
 /*   By: mel-hajj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 21:45:05 by mel-hajj          #+#    #+#             */
-/*   Updated: 2024/11/21 00:03:41 by mel-hajj         ###   ########.fr       */
+/*   Updated: 2025/03/26 03:12:23 by mel-hajj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,4 @@ int	ft_atoi(const char *nptr)
 		i++;
 	}
 	return (results * sign);
-}
-
-int main ()
-{
-	ft_atoi("2516");
 }
