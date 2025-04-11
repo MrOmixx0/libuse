@@ -6,7 +6,7 @@
 /*   By: mel-hajj <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 22:40:57 by mel-hajj          #+#    #+#             */
-/*   Updated: 2024/11/02 12:21:39 by mel-hajj         ###   ########.fr       */
+/*   Updated: 2025/04/11 14:54:48 by omix             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ char	*ft_strchr(const char *s, int c)
 		if (*s == c)
 			return ((char *)s);
 		s++;
-	}	
+	}
 	if (c == '\0')
 		return ((char *)s);
 	return (0);
